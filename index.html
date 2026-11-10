@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Noa Bejarano Pérez · Maestra de Educación Primaria & Pedagogía Hospitalaria</title>
+<meta name="description" content="CV de Noa Bejarano Pérez: Grado en Maestro en Educación Primaria y Máster en Pedagogía Hospitalaria. Un año como au pair en Chicago (EE. UU.).">
+<meta name="theme-color" content="#5a2a3d">
+<style>
+@font-face{font-family:"Fraunces";font-style:normal;font-weight:100 900;font-display:swap;src:url(assets/fonts/fraunces-latin-wght-normal.woff2) format("woff2")}
+@font-face{font-family:"Fraunces";font-style:italic;font-weight:100 900;font-display:swap;src:url(assets/fonts/fraunces-latin-wght-italic.woff2) format("woff2")}
+@font-face{font-family:"Manrope";font-style:normal;font-weight:200 800;font-display:swap;src:url(assets/fonts/manrope-latin-wght-normal.woff2) format("woff2")}
+@font-face{font-family:"Manrope";font-style:normal;font-weight:200 800;font-display:swap;src:url(assets/fonts/manrope-latin-ext-wght-normal.woff2) format("woff2");unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
+
+:root{
+  --ink:#1d2726;--ink-2:#4a5755;--muted:#7a8684;
+  --teal:#2e5a52;--teal-d:#1f403a;--sage:#8ec3b3;--sage-l:#dcebe5;--sage-xl:#eef5f2;
+  --sand:#efe8dc;--cream:#faf7f2;--line:#e3ddd2;--r:18px;
+  --serif:"Fraunces",Georgia,serif;--sans:"Manrope",system-ui,-apple-system,"Segoe UI",sans-serif;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;scroll-padding-top:84px}
+body{font-family:var(--sans);color:var(--ink);background:var(--cream);font-size:16px;line-height:1.6;-webkit-font-smoothing:antialiased;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+a{color:inherit;text-decoration:none}
+.wrap{max-width:1160px;margin:0 auto;padding:0 32px}
+.eyebrow{font-size:12px;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:var(--teal)}
+h2.title{font-family:var(--serif);font-weight:500;font-size:clamp(30px,3.6vw,44px);line-height:1.1;letter-spacing:-.01em;margin:10px 0 14px}
+h2.title em{font-style:italic;color:var(--teal)}
+.lead{color:var(--ink-2);max-width:640px}
+section{padding:88px 0}
+svg{fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+
+/* NAV */
+.nav{position:sticky;top:0;z-index:50;background:rgba(250,247,242,.86);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
+.nav .wrap{display:flex;align-items:center;gap:28px;height:68px}
+.brand{display:flex;align-items:center;gap:10px;font-weight:700;font-size:15px;white-space:nowrap}
+.mono{width:36px;height:36px;border-radius:50%;background:var(--teal);color:#fff;display:grid;place-items:center;font-family:var(--serif);font-size:15px;font-style:italic}
+.nav ul{display:flex;gap:4px;list-style:none;margin-left:auto}
+.nav ul a{display:block;padding:8px 12px;border-radius:999px;font-size:14px;font-weight:600;color:var(--ink-2);transition:.2s}
+.nav ul a:hover{background:var(--sage-l);color:var(--teal-d)}
+.btn{display:inline-flex;align-items:center;gap:8px;padding:11px 18px;border-radius:999px;font-weight:700;font-size:14px;border:0;cursor:pointer;font-family:inherit;transition:.2s;white-space:nowrap}
+.btn svg{width:16px;height:16px}
+.btn-dark{background:var(--ink);color:#fff}.btn-dark:hover{background:var(--teal)}
+.btn-ghost{background:#fff;color:var(--ink);border:1px solid var(--line)}.btn-ghost:hover{border-color:var(--teal);color:var(--teal)}
+
+/* HERO */
+.hero{padding:64px 0 40px;position:relative;overflow:hidden}
+.hero::before{content:"";position:absolute;right:-180px;top:-160px;width:620px;height:620px;border-radius:50%;background:radial-gradient(circle,var(--sage-l) 0%,rgba(220,235,229,0) 70%)}
+.hero .wrap{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,.85fr);gap:56px;align-items:center;position:relative;z-index:1}
+.tag{display:inline-flex;align-items:center;gap:8px;background:#fff;border:1px solid var(--line);padding:7px 14px 7px 8px;border-radius:999px;font-size:13px;font-weight:600;color:var(--ink-2)}
+.tag .dot{width:22px;height:22px;border-radius:50%;background:var(--sage-l);display:grid;place-items:center}
+.tag .dot i{width:8px;height:8px;border-radius:50%;background:var(--teal);display:block}
+.hero h1{font-family:var(--serif);font-weight:400;font-size:clamp(46px,6vw,78px);line-height:.98;letter-spacing:-.025em;margin:22px 0 18px}
+.hero h1 b{font-weight:600;display:block}
+.hero h1 span{font-style:italic;color:var(--teal);font-weight:400}
+.role{font-size:20px;font-weight:700;line-height:1.35;margin-bottom:14px}
+.role em{font-style:normal;color:var(--teal)}
+.pitch{color:var(--ink-2);font-size:17px;max-width:560px;margin-bottom:26px}
+.contact{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:28px}
+.chip{display:inline-flex;align-items:center;gap:8px;background:#fff;border:1px solid var(--line);border-radius:12px;padding:9px 13px;font-size:14px;font-weight:600}
+.chip svg{width:16px;height:16px;color:var(--teal);flex:none}
+a.chip:hover{border-color:var(--teal)}
+.cta{display:flex;gap:10px;flex-wrap:wrap}
+
+.photo{position:relative;justify-self:center;width:100%;max-width:400px}
+.arch{position:relative;aspect-ratio:3/3.9;border-radius:999px 999px 28px 28px;overflow:hidden;background:linear-gradient(180deg,var(--sage-l) 0%,#f3efe7 100%);box-shadow:0 30px 60px -30px rgba(31,64,58,.45);display:grid;place-items:center}
+.arch img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.arch .ini{font-family:var(--serif);font-style:italic;font-size:120px;color:var(--teal);opacity:.85}
+.arch-line{position:absolute;inset:-14px -14px auto auto;width:100%;aspect-ratio:3/3.9;border:1.5px solid var(--sage);border-radius:999px 999px 28px 28px;z-index:-1}
+.badge{position:absolute;background:#fff;border-radius:16px;padding:12px 16px;box-shadow:0 14px 34px -14px rgba(29,39,38,.35);font-size:13px;font-weight:700;line-height:1.25}
+.badge small{display:block;font-size:11px;font-weight:600;color:var(--muted);letter-spacing:.04em}
+.badge.b1{left:-34px;top:42%}.badge.b2{right:-22px;bottom:12%}
+.flags{display:flex;gap:4px;margin-top:6px}
+.flags span{font-size:11px;font-weight:800;background:var(--sage-l);color:var(--teal-d);padding:3px 7px;border-radius:6px}
+
+/* STATS */
+.stats{padding:0 0 24px}
+.stats .grid{display:grid;grid-template-columns:repeat(4,1fr);background:var(--ink);color:#fff;border-radius:24px;overflow:hidden}
+.stat{padding:26px 28px;border-right:1px solid rgba(255,255,255,.1)}
+.stat:last-child{border-right:0}
+.stat b{font-family:var(--serif);font-weight:500;font-size:38px;line-height:1;display:block;color:var(--sage)}
+.stat span{display:block;font-size:14px;color:rgba(255,255,255,.78);margin-top:8px;line-height:1.4}
+
+/* VALUE */
+.value .cards{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;margin-top:38px}
+.card{background:#fff;border:1px solid var(--line);border-radius:var(--r);padding:26px 22px;transition:.25s}
+.card:hover{transform:translateY(-4px);box-shadow:0 22px 40px -26px rgba(29,39,38,.4);border-color:var(--sage)}
+.ico{width:46px;height:46px;border-radius:14px;background:var(--sage-l);display:grid;place-items:center;color:var(--teal);margin-bottom:18px}
+.ico svg{width:22px;height:22px}
+.card h3{font-size:17px;font-weight:800;line-height:1.3;margin-bottom:8px}
+.card p{font-size:14.5px;color:var(--ink-2);line-height:1.55}
+
+/* SKILLS */
+.skills{background:#fff;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.skills .cols{display:grid;grid-template-columns:1fr 1fr;gap:28px;margin-top:38px}
+.panel{border:1px solid var(--line);border-radius:22px;padding:30px;background:var(--cream)}
+.panel.dark{background:var(--teal-d);color:#fff;border-color:var(--teal-d)}
+.panel h3{font-family:var(--serif);font-weight:500;font-size:24px;margin-bottom:4px}
+.panel .sub{font-size:13.5px;color:var(--muted);margin-bottom:22px}
+.panel.dark .sub{color:rgba(255,255,255,.65)}
+.checks{list-style:none;display:grid;gap:11px}
+.checks li{display:flex;gap:12px;font-size:15px;line-height:1.45}
+.checks li::before{content:"";flex:none;width:20px;height:20px;margin-top:1px;border-radius:50%;background:var(--sage-l) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%232e5a52' stroke-width='3.2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M5 12.5l4.5 4.5L19 7.5'/%3E%3C/svg%3E") center/12px no-repeat}
+.panel.dark .checks li::before{background-color:rgba(142,195,179,.25);background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238ec3b3' stroke-width='3.2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M5 12.5l4.5 4.5L19 7.5'/%3E%3C/svg%3E")}
+.checks b{font-weight:700}
+.ai{display:flex;gap:8px;flex-wrap:wrap;margin-top:22px;padding-top:20px;border-top:1px solid rgba(255,255,255,.14)}
+.ai span{font-size:13px;font-weight:700;padding:7px 12px;border-radius:999px;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.18)}
+.ai span.l{background:transparent;border:0;padding-left:0;color:rgba(255,255,255,.6);font-weight:600}
+
+/* EXPERIENCE */
+.timeline{margin-top:40px;position:relative}
+.timeline::before{content:"";position:absolute;left:172px;top:8px;bottom:8px;width:2px;background:var(--line)}
+.job{display:grid;grid-template-columns:150px 1fr;gap:44px;position:relative;padding-bottom:34px}
+.job:last-child{padding-bottom:0}
+.job::after{content:"";position:absolute;left:166px;top:7px;width:14px;height:14px;border-radius:50%;background:var(--cream);border:3px solid var(--sage)}
+.job.feat::after{background:var(--teal);border-color:var(--teal);box-shadow:0 0 0 5px var(--sage-l)}
+.when{font-size:13.5px;font-weight:700;color:var(--ink-2);padding-top:2px;text-align:right}
+.when small{display:block;font-weight:600;color:var(--muted);font-size:12px}
+.what h3{font-size:19px;font-weight:800;line-height:1.3}
+.what .co{font-size:14.5px;color:var(--teal);font-weight:700;margin:2px 0 10px}
+.what ul{padding-left:18px;color:var(--ink-2);font-size:15px;display:grid;gap:4px}
+.what ul li::marker{color:var(--sage)}
+.job.feat .what{background:#fff;border:1px solid var(--sage);border-radius:var(--r);padding:22px 24px;margin-top:-6px;box-shadow:0 20px 40px -30px rgba(31,64,58,.5)}
+.pill{display:inline-block;font-size:11px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;background:var(--sage-l);color:var(--teal-d);padding:4px 9px;border-radius:6px;margin-bottom:8px}
+
+/* EDUCATION */
+.edu{background:var(--sand)}
+.edu .cols{display:grid;grid-template-columns:1.25fr 1fr;gap:28px;margin-top:38px}
+.course{background:#fff;border-radius:var(--r);padding:22px 24px;display:grid;grid-template-columns:64px 1fr;gap:18px;align-items:start}
+.course+.course{margin-top:14px}
+.course.feat{border:1px solid var(--sage);box-shadow:0 20px 40px -30px rgba(31,64,58,.5)}
+.yr{font-family:var(--serif);font-size:24px;color:var(--teal);font-weight:500;line-height:1.1}
+.course h3{font-size:16px;font-weight:800;line-height:1.35}
+.course .org{font-size:13.5px;color:var(--muted);font-weight:600;margin:2px 0 6px}
+.course p{font-size:14.5px;color:var(--ink-2);line-height:1.5}
+.side{display:grid;gap:14px;align-content:start}
+.box{background:#fff;border-radius:var(--r);padding:22px 24px}
+.box h3{font-size:12px;font-weight:800;letter-spacing:.16em;text-transform:uppercase;color:var(--teal);margin-bottom:14px}
+.box p{font-size:14.5px;color:var(--ink-2)}
+.box p b{color:var(--ink)}
+.lang{display:flex;justify-content:space-between;align-items:center;padding:9px 0;border-bottom:1px dashed var(--line);font-size:15px}
+.lang:last-child{border-bottom:0}
+.lang b{font-weight:800}
+.lang span{font-size:12.5px;font-weight:700;color:var(--teal-d);background:var(--sage-l);padding:4px 10px;border-radius:99px}
+.soft{display:flex;flex-wrap:wrap;gap:7px}
+.soft span{font-size:13px;font-weight:700;color:var(--teal-d);background:var(--sage-xl);padding:6px 11px;border-radius:9px}
+
+/* CONTACT */
+.final{padding:72px 0 90px}
+.final .box2{background:var(--teal-d);color:#fff;border-radius:30px;padding:52px 56px;display:grid;grid-template-columns:1.2fr 1fr;gap:40px;align-items:center;position:relative;overflow:hidden}
+.final .box2::after{content:"";position:absolute;right:-90px;bottom:-140px;width:360px;height:360px;border-radius:50%;border:60px solid rgba(142,195,179,.13)}
+.final h2{font-family:var(--serif);font-weight:400;font-size:clamp(30px,3.4vw,42px);line-height:1.12}
+.final h2 em{color:var(--sage)}
+.final p{color:rgba(255,255,255,.75);margin-top:12px;max-width:440px}
+.clist{display:grid;gap:10px;position:relative;z-index:1}
+.clist a,.clist div{display:flex;align-items:center;gap:14px;background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.14);border-radius:14px;padding:14px 18px;font-weight:700;transition:.2s}
+.clist a:hover{background:rgba(255,255,255,.14)}
+.clist svg{width:20px;height:20px;color:var(--sage);flex:none}
+.clist small{display:block;font-size:11.5px;font-weight:600;color:rgba(255,255,255,.55);letter-spacing:.05em;text-transform:uppercase}
+footer{text-align:center;font-size:12.5px;color:var(--muted);padding:0 0 30px}
+
+.rv{opacity:0;transform:translateY(18px);transition:opacity .7s ease,transform .7s ease}
+.rv.in{opacity:1;transform:none}
+
+@media screen and (max-width:1020px){
+  .nav ul{display:none}.nav .btn-ghost{margin-left:auto}
+  .hero .wrap{grid-template-columns:1fr}.photo{max-width:340px;order:-1}
+  .stats .grid{grid-template-columns:repeat(2,1fr)}
+  .stat:nth-child(2){border-right:0}.stat:nth-child(-n+2){border-bottom:1px solid rgba(255,255,255,.1)}
+  .value .cards{grid-template-columns:repeat(2,1fr)}
+  .skills .cols,.edu .cols,.final .box2{grid-template-columns:1fr}
+}
+@media screen and (max-width:640px){
+  .wrap{padding:0 20px}section{padding:60px 0}
+  .value .cards{grid-template-columns:1fr}
+  .timeline::before{left:6px}.job{grid-template-columns:1fr;gap:6px;padding-left:30px}
+  .job::after{left:0}.when{text-align:left}
+  .badge.b1{left:-8px}.badge.b2{right:-8px}
+  .final .box2{padding:36px 26px}
+  .nav .btn-dark{display:none}
+}
+@media print{
+  @page{size:A4;margin:12mm}
+  body{font-size:13px;background:#fff;zoom:.73}
+  .eyebrow{display:block}.eyebrow,h2.title{break-after:avoid}.exp{break-before:page}.skills .cols{break-inside:avoid}.exp{padding-bottom:6px}.edu{padding-top:10px}
+  .nav,.cta,.hero::before,.badge,.value,.final,.softbox{display:none}
+  .skills,.edu{background:#fff;border:0}
+  .rv{opacity:1;transform:none}
+  section{padding:22px 0;break-inside:auto}
+  .wrap{padding:0}
+  .hero{padding:0 0 16px}
+  .hero .wrap{grid-template-columns:1fr 150px;gap:24px}
+  .hero h1{font-size:40px;margin:10px 0 8px}
+  .photo{max-width:150px}.arch .ini{font-size:56px}.arch-line{display:none}
+  .pitch{font-size:13.5px;margin-bottom:12px}.contact{margin-bottom:0}.chip{font-size:12px;padding:6px 10px}
+  .stat{padding:16px 18px}.stat b{font-size:28px}
+  h2.title{font-size:26px}
+  .value .cards{margin-top:16px}.card{padding:16px}.card p{font-size:12.5px}
+  .skills .cols,.edu .cols{margin-top:16px}.panel{padding:20px}
+  .timeline{margin-top:16px}.job{padding-bottom:16px;break-inside:avoid}.what ul{font-size:13px}
+  .course,.box,.card,.panel{break-inside:avoid}
+  .final{padding:16px 0 0}.final .box2{padding:28px 32px;break-inside:avoid}
+  footer{display:none}
+}
+</style>
+</head>
+<body>
+
+<nav class="nav">
+  <div class="wrap">
+    <a href="#top" class="brand"><span class="mono">NB</span>Noa Bejarano Pérez</a>
+    <ul>
+      <li><a href="#aporto">Qué aporto</a></li>
+      <li><a href="#competencias">Competencias</a></li>
+      <li><a href="#experiencia">Experiencia</a></li>
+      <li><a href="#formacion">Formación</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+    </ul>
+    <a class="btn btn-ghost" href="CV_Noa_Bejarano.pdf" download>
+      <svg viewBox="0 0 24 24"><path d="M12 3v12m0 0l-5-5m5 5l5-5M5 21h14"/></svg>PDF</a>
+    <a class="btn btn-dark" href="#contacto">Contactar</a>
+  </div>
+</nav>
+
+<header class="hero" id="top">
+  <div class="wrap">
+    <div class="rv">
+      <span class="tag"><span class="dot"><i></i></span>Disponible · El Campello, Alicante</span>
+      <h1><b>Noa Bejarano</b><span>Pérez</span></h1>
+      <p class="role">Maestra de Educación Primaria · <em>Pedagogía Hospitalaria</em></p>
+      <p class="pitch">Maestra con un Máster en Pedagogía Hospitalaria, orientada a acompañar a niños y niñas en contextos de enfermedad, hospitalización y vulnerabilidad. Tras un año en Chicago (EE. UU.) cuidando de dos niñas de 5 años y un bebé, ahora doy clases de español online a alumnado extranjero. Me adapto con facilidad a entornos nuevos y trabajo bien en equipos educativos y sanitarios.</p>
+      <div class="contact">
+        <a class="chip" href="tel:+34640502479"><svg viewBox="0 0 24 24"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></svg>+34 640 502 479</a>
+        <a class="chip" href="mailto:noabj2015@gmail.com"><svg viewBox="0 0 24 24"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M22 6l-10 7L2 6"/></svg>noabj2015@gmail.com</a>
+        <span class="chip"><svg viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>El Campello (Alicante)</span>
+        <span class="chip"><svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg>26/05/2003</span>
+      </div>
+      <div class="cta">
+        <a class="btn btn-dark" href="#contacto"><svg viewBox="0 0 24 24"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>Concertar entrevista</a>
+        <a class="btn btn-ghost" href="CV_Noa_Bejarano.pdf" download><svg viewBox="0 0 24 24"><path d="M12 3v12m0 0l-5-5m5 5l5-5M5 21h14"/></svg>Descargar CV en PDF</a>
+      </div>
+    </div>
+    <div class="photo rv">
+      <div class="arch-line"></div>
+      <div class="arch"><span class="ini">NB</span><!-- Sustituir por: <img src="assets/foto-noa.jpg" alt="Noa Bejarano Pérez"> --></div>
+      <div class="badge b1"><small>MÁSTER</small>Pedagogía Hospitalaria</div>
+      <div class="badge b2"><small>IDIOMAS</small><div class="flags"><span>ES</span><span>EN</span><span>FR</span></div></div>
+    </div>
+  </div>
+</header>
+
+<div class="stats">
+  <div class="wrap">
+    <div class="grid rv">
+      <div class="stat"><b>Grado</b><span>Maestro en Educación Primaria</span></div>
+      <div class="stat"><b>1.500 h</b><span>Máster en Pedagogía Hospitalaria · 60 ECTS</span></div>
+      <div class="stat"><b>1 año</b><span>de inmersión en inglés en Chicago (EE. UU.)</span></div>
+      <div class="stat"><b>Desde 2019</b><span>enseñando y cuidando: campamentos, familia y clases online</span></div>
+    </div>
+  </div>
+</div>
+
+<section class="value" id="aporto">
+  <div class="wrap">
+    <span class="eyebrow">Qué aporto</span>
+    <h2 class="title">Educar también <em>fuera del aula</em></h2>
+    <p class="lead">Formación docente, especialización hospitalaria y experiencia real con niños de todas las edades, de bebés a adolescentes.</p>
+    <div class="cards">
+      <div class="card rv"><div class="ico"><svg viewBox="0 0 24 24"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1 1.1L12 21l7.8-7.5 1-1.1a5.5 5.5 0 0 0 0-7.8z"/></svg></div><h3>Pedagogía hospitalaria</h3><p>Atención educativa y emocional al alumnado enfermo u hospitalizado y a sus familias.</p></div>
+      <div class="card rv"><div class="ico"><svg viewBox="0 0 24 24"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2zM22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg></div><h3>Docencia en Primaria</h3><p>Programación de actividades adaptadas a cada grupo y atención a la diversidad.</p></div>
+      <div class="card rv"><div class="ico"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15 15 0 0 1 4 10 15 15 0 0 1-4 10 15 15 0 0 1-4-10 15 15 0 0 1 4-10z"/></svg></div><h3>Español para extranjeros</h3><p>Profesora online de español y un año viviendo en EE. UU. con comunicación diaria en inglés.</p></div>
+      <div class="card rv"><div class="ico"><svg viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.9M16 3.1a4 4 0 0 1 0 7.8"/></svg></div><h3>Ocio educativo</h3><p>Monitora de campamentos, multiaventura y deportes acuáticos con grupos infantiles.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="skills" id="competencias">
+  <div class="wrap">
+    <span class="eyebrow">Competencias</span>
+    <h2 class="title">Lo que sé <em>hacer bien</em></h2>
+    <div class="cols">
+      <div class="panel rv">
+        <h3>Competencias docentes</h3>
+        <p class="sub">Aula, hospital y ocio educativo</p>
+        <ul class="checks">
+          <li><span><b>Atención a la diversidad</b> y a las necesidades afectivas de cada niño</span></li>
+          <li><span><b>Diseño de actividades</b> lúdicas y educativas adaptadas a cada edad y grupo</span></li>
+          <li><span><b>Acompañamiento emocional</b> en situaciones de enfermedad y hospitalización</span></li>
+          <li><span><b>Mediación y resolución de conflictos</b> entre participantes</span></li>
+          <li><span><b>Coordinación</b>, seguimiento y evaluación en equipo</span></li>
+          <li><span><b>Seguridad</b> y cumplimiento de la normativa en actividades con menores</span></li>
+        </ul>
+      </div>
+      <div class="panel dark rv">
+        <h3>Competencias personales</h3>
+        <p class="sub">Cómo trabajo</p>
+        <ul class="checks">
+          <li><span><b>Adaptabilidad:</b> un año viviendo y trabajando en otro país</span></li>
+          <li><span><b>Trabajo en equipo</b> con docentes, monitores y familias</span></li>
+          <li><span><b>Organización</b> y planificación de la carga de trabajo diaria</span></li>
+          <li><span><b>Tolerancia al estrés</b> y calma con grupos numerosos</span></li>
+          <li><span><b>Don de gentes</b> y comunicación cercana con niños y adultos</span></li>
+        </ul>
+        <div class="ai"><span class="l">Idiomas</span><span>Español</span><span>Inglés</span><span>Francés</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="exp" id="experiencia">
+  <div class="wrap">
+    <span class="eyebrow">Experiencia</span>
+    <h2 class="title">Trayectoria <em>con niños</em></h2>
+    <div class="timeline">
+      <div class="job feat rv">
+        <div class="when">2026 – hoy<small>Online</small></div>
+        <div class="what">
+          <span class="pill">Actual</span>
+          <h3>Profesora de español para extranjeros</h3>
+          <div class="co">Clases online · desde septiembre de 2026</div>
+          <ul>
+            <li>Clases de español como lengua extranjera para alumnado internacional.</li>
+            <li>Preparación de materiales y sesiones adaptadas al nivel y objetivos de cada alumno.</li>
+          </ul>
+        </div>
+      </div>
+      <div class="job rv">
+        <div class="when">2025 – 2026<small>Chicago, EE. UU.</small></div>
+        <div class="what">
+          <h3>Au pair</h3>
+          <div class="co">Familia anfitriona · Chicago, Illinois</div>
+          <ul>
+            <li>Cuidado y acompañamiento diario de dos niñas de 5 años y un bebé (sep. 2025 – sep. 2026).</li>
+            <li>Rutinas y actividades educativas y de juego adaptadas a la edad de cada niño.</li>
+            <li>Comunicación diaria en inglés con la familia y el entorno escolar.</li>
+          </ul>
+        </div>
+      </div>
+      <div class="job rv">
+        <div class="when">2022<small>Madrid</small></div>
+        <div class="what">
+          <h3>Monitora de campamento · Inmersión lingüística</h3>
+          <div class="co">Idiomas Sheffield</div>
+          <ul>
+            <li>Diseño de actividades en inglés y francés adaptadas a las particularidades de cada grupo.</li>
+            <li>Mediación y resolución de conflictos entre los participantes.</li>
+            <li>Reuniones de coordinación, seguimiento y evaluación.</li>
+          </ul>
+        </div>
+      </div>
+      <div class="job rv">
+        <div class="when">2022<small>Castilla y León</small></div>
+        <div class="what">
+          <h3>Monitora de ocio y tiempo libre · Programa multiaventura</h3>
+          <div class="co">Nubra Educación y Aventura</div>
+          <ul>
+            <li>Programación de actividades lúdicas y educativas para grupos de distintos niveles.</li>
+            <li>Dinámicas para fomentar la cooperación, la comunicación positiva y el consenso.</li>
+            <li>Atención a las necesidades afectivas y educativas de los menores.</li>
+          </ul>
+        </div>
+      </div>
+      <div class="job rv">
+        <div class="when">2019 – 2021<small>Alicante</small></div>
+        <div class="what">
+          <h3>Monitora de deportes acuáticos · Club de surf</h3>
+          <div class="co">Aloha Sport</div>
+          <ul>
+            <li>Enseñanza de deportes náuticos a niños principiantes e iniciados.</li>
+            <li>Técnicas de animación individuales y grupales que fomentan la participación.</li>
+            <li>Planificación de actividades cumpliendo la normativa vigente.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="edu" id="formacion">
+  <div class="wrap">
+    <span class="eyebrow">Formación e idiomas</span>
+    <h2 class="title">Base <em>académica</em></h2>
+    <div class="cols">
+      <div>
+        <div class="course feat rv">
+          <div class="yr">2026</div>
+          <div>
+            <h3>Máster en Pedagogía Hospitalaria</h3>
+            <div class="org">Escuela de Postgrado de Medicina y Sanidad · Grupo Esneca Formación</div>
+            <p>1.500 horas, con equivalencia a 60 créditos ECTS. Calificación: Notable. Certificado Universitario Internacional (Agencia Universitaria Doctrina Qualitas).</p>
+          </div>
+        </div>
+        <div class="course rv">
+          <div class="yr">2025</div>
+          <div>
+            <h3>Grado en Maestro en Educación Primaria</h3>
+            <div class="org">Universidad Pontificia de Salamanca</div>
+          </div>
+        </div>
+        <div class="course rv">
+          <div class="yr">2021</div>
+          <div>
+            <h3>Bachillerato Científico · EVAU</h3>
+            <div class="org">Colegio Los Sauces · Torrelodones (Madrid)</div>
+          </div>
+        </div>
+      </div>
+      <div class="side">
+        <div class="box rv">
+          <h3>Idiomas</h3>
+          <div class="lang"><b>Español</b><span>Nativo</span></div>
+          <div class="lang"><b>Inglés</b><span>1 año en EE. UU.</span></div>
+          <div class="lang"><b>Francés</b><span>Conocimientos</span></div>
+        </div>
+        <div class="box rv">
+          <h3>Voluntariado</h3>
+          <p><b>YMCA Salamanca</b> · desde 2022<br>Actividades para mejorar la situación de niños y familias en dificultad.</p>
+        </div>
+        <div class="box rv softbox">
+          <h3>Habilidades personales</h3>
+          <div class="soft"><span>Empatía</span><span>Paciencia</span><span>Organización</span><span>Trabajo en equipo</span><span>Adaptabilidad</span><span>Ganas de aprender</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="final" id="contacto">
+  <div class="wrap">
+    <div class="box2 rv">
+      <div>
+        <span class="eyebrow" style="color:var(--sage)">Contacto</span>
+        <h2 style="margin-top:10px">¿Hablamos de tu <em>próximo curso</em>?</h2>
+        <p>Disponible para colegios, aulas hospitalarias, asociaciones y proyectos educativos.</p>
+      </div>
+      <div class="clist">
+        <a href="tel:+34640502479"><svg viewBox="0 0 24 24"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></svg><span><small>Teléfono</small>+34 640 502 479</span></a>
+        <a href="mailto:noabj2015@gmail.com"><svg viewBox="0 0 24 24"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M22 6l-10 7L2 6"/></svg><span><small>Email</small>noabj2015@gmail.com</span></a>
+        <div><svg viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg><span><small>Dirección</small>C/ San Bartolomé, 160, 1º · 03560 El Campello</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>© 2026 Noa Bejarano Pérez · Maestra de Educación Primaria</footer>
+
+<script>
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{threshold:.12});
+document.querySelectorAll('.rv').forEach(el=>io.observe(el));
+window.addEventListener('beforeprint',()=>document.querySelectorAll('.rv').forEach(el=>el.classList.add('in')));
+</script>
+</body>
+</html>
